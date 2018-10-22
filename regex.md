@@ -65,7 +65,7 @@ lista = re.findall('[0-9]+', fh.read())
 
 Imagina que quieres encontrar un número de teléfono en una cadena. Sabes el patrón: tres números, un guión, tres números, un guión y cuatro números. Aquí tienes un ejemplo: '415-555-4242'
 
-El caracter que usamos en las regex para encontrar números es '\d'. Pues bien, el patrón que queremos encontrar sería: r'\d\d\d-\d\d\d-\d\d\d'.
+El caracter que usamos en las regex para encontrar números es '\d'. Pues bien, el patrón que queremos encontrar sería: r'\d\d\d-\d\d\d-\d\d\d\d'.
 
 >**info**
 >
